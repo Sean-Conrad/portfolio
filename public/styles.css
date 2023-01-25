@@ -1,0 +1,60 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+h1 {
+  color: white;
+}
+h2 {
+  color: white;
+}
+p {
+  color: white;
+  text-align: left;
+}
+html {
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  background: #eee;
+  padding: 0 16px;
+  background-color: #030017;
+  background-image: url("https://www.transparenttextures.com/patterns/light-sketch.png");
+  background-attachment: fixed;
+}
+
+header {
+  background-color: #030017;
+  margin: auto -16px;
+  padding: 16px 32px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+section {
+  padding: 16px 32px;
+}
+.bio-section {
+  padding: 65px 20px;
+}
+
+.bio-img {
+  padding: 10px 30px;
+  float: left;
+}
+
+.resume-section {
+  background-color: #030017;
+  text-align: center;
+}
+
+footer {
+  position: relative;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
+
+footer p {
+  color: #ccc;
+}
