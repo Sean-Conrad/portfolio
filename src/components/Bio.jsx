@@ -18,7 +18,7 @@ function Bio() {
             Clifton strengths: Relator, Command, Adaptability, Restorative,
             Deliberative
           </p>
-          <p>ISTP Personality type</p>
+          <p>ISTP Myers Briggs personality type</p>
         </div>
         <div class="col"></div>
       </div>
