@@ -1,5 +1,6 @@
 import Header from "./Header";
 import Bio from "./Bio";
+import Experience from "./Experience";
 import Resume from "./Resume";
 import Projects from "./Projects";
 import Footer from "./Footer";
@@ -11,6 +12,7 @@ export default function App() {
     <div className="App">
       <Header />
       <Bio />
+      <Experience />
       <Projects />
 
       <Resume />
