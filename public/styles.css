@@ -3,6 +3,8 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+/* text */
 h1 {
   color: white;
 }
@@ -22,6 +24,24 @@ body {
   background-color: #030017;
   background-image: url("https://www.transparenttextures.com/patterns/light-sketch.png");
   background-attachment: fixed;
+}
+
+.container-1{
+  margin: 30px auto;
+}
+
+/* buttons */
+.button-link {
+  width: 115px;
+  height: 25px;
+  background: #4E9CAF;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  line-height: 25px;
+  cursor: pointer;
 }
 
 header {
@@ -50,8 +70,13 @@ section {
   float: left;
 }
 
-.resume-section {
+.exhibit-section {
   background-color: #030017;
+  text-align: center;
+  margin: 50px auto;
+}
+.project-section {
+  background-color: transparent;
   text-align: center;
 }
 
