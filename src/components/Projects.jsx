@@ -6,32 +6,27 @@ function Projects() {
       <h1>Projects</h1>
 {/* Dashboard  */} 
       <div class="row container-1">
-        <div class="tier-column col-lg-3">
+        <div class="tier-column col-lg-6">
           <div class="card" style={{ background: "#030017" }}>
             <div class="card-header">
               <h2>Dashboard</h2>
               <img
+                class="project-thumbnail"
                 src="images/Dashboard.jpeg"
                 alt="PMV-logo"
-                style={{ width: "100%" }}
+                style={{ width: "50%" }}
               />
-            </div>
-            <div class="card-body"></div>
-          </div>
-        </div>
-
-        <div class="tier-column col-lg-3">
-          <div class="card" style={{ background: "#030017" }}>
-            <div class="card-header">
-              <p>Nisi ullamco elit duis ipsum proident irure eu ad. Officia commodo qui reprehenderit amet cupidatat nisi sit do quis occaecat esse magna culpa. 
+              <h5>Nisi ullamco elit duis ipsum proident irure eu ad. Officia commodo qui reprehenderit amet cupidatat nisi sit do quis occaecat esse magna culpa. 
               Proident excepteur cillum laboris laboris et fugiat incididunt deserunt veniam velit. Adipisicing dolore officia aliqua aliqua velit officia 
-              Lorem aute est aute elit id. Consequat in esse consectetur in adipisicing dolor aliqua non commodo cupidatat proident dolor ex.</p>
+              Lorem aute est aute elit id. Consequat in esse consectetur in adipisicing dolor aliqua non commodo cupidatat proident dolor ex. Nisi ullamco elit duis ipsum proident irure eu ad. Officia commodo qui reprehenderit amet cupidatat nisi sit do quis occaecat esse magna culpa. 
+              Proident excepteur cillum laboris laboris et fugiat incididunt deserunt veniam velit. Adipisicing dolore officia aliqua aliqua velit officia 
+              Lorem aute est aute elit id. Consequat in esse consectetur in adipisicing dolor aliqua non commodo cupidatat proident dolor ex.</h5>
               <a class="button-link" href="https://github.com/Sean-Conrad/Dashboard">View on Github!</a>
-
             </div>
             <div class="card-body"></div>
           </div>
         </div>
+
 
         <div class="tier-column col-lg-6">
           <video width="900" contols>
@@ -42,27 +37,22 @@ function Projects() {
 
 {/* Google Keep Clone */}
       <div class="row container-1">
-      <div class="tier-column col-lg-3">
+      <div class="tier-column col-lg-6">
         <div class="card" style={{ background: "#030017" }}>
           <div class="card-header">
             <h2>Google Keep Clone</h2>
             <img
+              class="project-thumbnail"
               src="images/Google-keep-clone.jpeg"
               alt="PMV-logo"
-              style={{ width: "100%" }}
+              style={{ width: "50%" }}
             />
-          </div>
-          <div class="card-body"></div>
-        </div>
-      </div>
-
-      <div class="tier-column col-lg-3">
-        <div class="card" style={{ background: "#030017" }}>
-          <div class="card-header">
-            <p>Nisi ullamco elit duis ipsum proident irure eu ad. Officia commodo qui reprehenderit amet cupidatat nisi sit do quis occaecat esse magna culpa. 
+            <h5>Nisi ullamco elit duis ipsum proident irure eu ad. Officia commodo qui reprehenderit amet cupidatat nisi sit do quis occaecat esse magna culpa. 
+            Proident excepteur cillum laboris laboris et fugiat incididunt deserunt veniam velit. Adipisicing dolore officia aliqua aliqua velit officia 
+            Lorem aute est aute elit id. Consequat in esse consectetur in adipisicing dolor aliqua non commodo cupidatat proident dolor ex. Nisi ullamco elit duis ipsum proident irure eu ad. Officia commodo qui reprehenderit amet cupidatat nisi sit do quis occaecat esse magna culpa. 
             Proident excepteur cillum laboris laboris et fugiat incididunt deserunt veniam velit. Adipisicing dolore officia aliqua aliqua velit officia 
             Lorem aute est aute elit id. Consequat in esse consectetur in adipisicing dolor aliqua non commodo cupidatat proident dolor ex.
-            </p>
+            </h5>
             <a class="button-link" href="https://secure-shelf-65021.herokuapp.com/">Visit!</a>
           </div>
           <div class="card-body"></div>
@@ -83,32 +73,27 @@ function Projects() {
 
 {/* Task List */}
 <div class="row container-1">
-      <div class="tier-column col-lg-3">
+      <div class="tier-column col-lg-6">
         <div class="card" style={{ background: "#030017" }}>
           <div class="card-header">
-            <h2>Google Keep Clone</h2>
+            <h2>Task List</h2>
             <img
+              class="project-thumbnail"
               src="images/Task-list.jpeg"
               alt="PMV-logo"
-              style={{ width: "100%" }}
+              style={{ width: "50%" }}
             />
-          </div>
-          <div class="card-body"></div>
-        </div>
-      </div>
-
-      <div class="tier-column col-lg-3">
-        <div class="card" style={{ background: "#030017" }}>
-          <div class="card-header">
-            <p>Nisi ullamco elit duis ipsum proident irure eu ad. Officia commodo qui reprehenderit amet cupidatat nisi sit do quis occaecat esse magna culpa. 
+            <h5>Nisi ullamco elit duis ipsum proident irure eu ad. Officia commodo qui reprehenderit amet cupidatat nisi sit do quis occaecat esse magna culpa. 
             Proident excepteur cillum laboris laboris et fugiat incididunt deserunt veniam velit. Adipisicing dolore officia aliqua aliqua velit officia 
-            Lorem aute est aute elit id. Consequat in esse consectetur in adipisicing dolor aliqua non commodo cupidatat proident dolor ex.
-            https://serene-shelf-88879.herokuapp.com/</p>
+            Lorem aute est aute elit id. Consequat in esse consectetur in adipisicing dolor aliqua non commodo cupidatat proident dolor ex. Nisi ullamco elit duis ipsum proident irure eu ad. Officia commodo qui reprehenderit amet cupidatat nisi sit do quis occaecat esse magna culpa. 
+            Proident excepteur cillum laboris laboris et fugiat incididunt deserunt veniam velit. Adipisicing dolore officia aliqua aliqua velit officia 
+            Lorem aute est aute elit id. Consequat in esse consectetur in adipisicing dolor aliqua non commodo cupidatat proident dolor ex.</h5>
             <a class="button-link" href="https://serene-shelf-88879.herokuapp.com/">Visit!</a>
           </div>
           <div class="card-body"></div>
         </div>
       </div>
+
 
       <div class="tier-column col-lg-6">
           <img
@@ -124,27 +109,22 @@ function Projects() {
 
 {/* Dashcam */}
 <div class="row container-1">
-      <div class="tier-column col-lg-3">
+      <div class="tier-column col-lg-6">
         <div class="card" style={{ background: "#030017" }}>
           <div class="card-header">
             <h2>Dashcam</h2>
             <img
+              class="project-thumbnail"
               src="images/Dashcam.jpeg"
               alt="PMV-logo"
-              style={{ width: "100%" }}
+              style={{ width: "50%" }}
             />
-          </div>
-          <div class="card-body"></div>
-        </div>
-      </div>
-
-      <div class="tier-column col-lg-3">
-        <div class="card" style={{ background: "#030017" }}>
-          <div class="card-header">
-            <p>Nisi ullamco elit duis ipsum proident irure eu ad. Officia commodo qui reprehenderit amet cupidatat nisi sit do quis occaecat esse magna culpa. 
+            <h5>Nisi ullamco elit duis ipsum proident irure eu ad. Officia commodo qui reprehenderit amet cupidatat nisi sit do quis occaecat esse magna culpa. 
+            Proident excepteur cillum laboris laboris et fugiat incididunt deserunt veniam velit. Adipisicing dolore officia aliqua aliqua velit officia 
+            Lorem aute est aute elit id. Consequat in esse consectetur in adipisicing dolor aliqua non commodo cupidatat proident dolor ex. Nisi ullamco elit duis ipsum proident irure eu ad. Officia commodo qui reprehenderit amet cupidatat nisi sit do quis occaecat esse magna culpa. 
             Proident excepteur cillum laboris laboris et fugiat incididunt deserunt veniam velit. Adipisicing dolore officia aliqua aliqua velit officia 
             Lorem aute est aute elit id. Consequat in esse consectetur in adipisicing dolor aliqua non commodo cupidatat proident dolor ex.
-            </p>
+            </h5>
             <a class="button-link" href="https://github.com/Sean-Conrad/Smart-Dash-Cam">View on Github!</a>
           </div>
           <div class="card-body"></div>

@@ -3,13 +3,17 @@
   margin: 0;
   box-sizing: border-box;
 }
-
-/* text */
-h1 {
-  color: white;
+header h1{
+  text-align: left;
 }
-h2 {
+/* text */
+h1, h2 {
   color: white;
+  text-align: center;
+}
+h3, h4, h5 {
+  color: white;
+  text-align: left;
 }
 p {
   color: white;
@@ -27,7 +31,7 @@ body {
 }
 
 .container-1{
-  margin: 30px auto;
+  margin: 60px auto;
 }
 
 /* buttons */
@@ -36,12 +40,19 @@ body {
   height: 25px;
   background: #4E9CAF;
   padding: 10px;
+  margin-top: 50px;
   text-align: center;
   border-radius: 5px;
   color: white;
   font-weight: bold;
   line-height: 25px;
   cursor: pointer;
+}
+
+/* photos */
+.project-thumbnail{
+  float: left;
+  margin: 20px 20px;
 }
 
 header {
