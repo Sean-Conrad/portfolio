@@ -4,36 +4,7 @@ function Projects() {
   return (
     <section class="exhibit-section">
       <h1>Projects</h1>
-{/* Dashboard  */} 
-      <div class="row container-1">
-        <div class="tier-column col-lg-6">
-          <div class="card" style={{ background: "#030017" }}>
-            <div class="card-header">
-              <h2>Dashboard</h2>
-              <img
-                class="project-thumbnail"
-                src="images/Dashboard.jpeg"
-                alt="PMV-logo"
-                style={{ width: "50%" }}
-              />
-              <h5>Nisi ullamco elit duis ipsum proident irure eu ad. Officia commodo qui reprehenderit amet cupidatat nisi sit do quis occaecat esse magna culpa. 
-              Proident excepteur cillum laboris laboris et fugiat incididunt deserunt veniam velit. Adipisicing dolore officia aliqua aliqua velit officia 
-              Lorem aute est aute elit id. Consequat in esse consectetur in adipisicing dolor aliqua non commodo cupidatat proident dolor ex. Nisi ullamco elit duis ipsum proident irure eu ad. Officia commodo qui reprehenderit amet cupidatat nisi sit do quis occaecat esse magna culpa. 
-              Proident excepteur cillum laboris laboris et fugiat incididunt deserunt veniam velit. Adipisicing dolore officia aliqua aliqua velit officia 
-              Lorem aute est aute elit id. Consequat in esse consectetur in adipisicing dolor aliqua non commodo cupidatat proident dolor ex.</h5>
-              <a class="button-link" href="https://github.com/Sean-Conrad/Dashboard">View on Github!</a>
-            </div>
-            <div class="card-body"></div>
-          </div>
-        </div>
 
-
-        <div class="tier-column col-lg-6">
-          <video width="900" contols>
-              <source src="images/Dashboard-demo.mov" type="video/mp4"/>
-            </video>
-        </div>
-      </div>
 
 {/* Google Keep Clone */}
       <div class="row container-1">
@@ -45,29 +16,23 @@ function Projects() {
               class="project-thumbnail"
               src="images/Google-keep-clone.jpeg"
               alt="PMV-logo"
-              style={{ width: "50%" }}
+              style={{ width: "65%" }}
             />
-            <h5>Nisi ullamco elit duis ipsum proident irure eu ad. Officia commodo qui reprehenderit amet cupidatat nisi sit do quis occaecat esse magna culpa. 
-            Proident excepteur cillum laboris laboris et fugiat incididunt deserunt veniam velit. Adipisicing dolore officia aliqua aliqua velit officia 
-            Lorem aute est aute elit id. Consequat in esse consectetur in adipisicing dolor aliqua non commodo cupidatat proident dolor ex. Nisi ullamco elit duis ipsum proident irure eu ad. Officia commodo qui reprehenderit amet cupidatat nisi sit do quis occaecat esse magna culpa. 
-            Proident excepteur cillum laboris laboris et fugiat incididunt deserunt veniam velit. Adipisicing dolore officia aliqua aliqua velit officia 
-            Lorem aute est aute elit id. Consequat in esse consectetur in adipisicing dolor aliqua non commodo cupidatat proident dolor ex.
-            </h5>
+            <p>• Built a web app using technologies (JavaScript, HTML/CSS, Bootstrap, Node.js, React.js)</p>
+            <p>• Utilized techniques such as abstracting components, function decomposition, and component tree management</p>
+            <p>• Used state hooks to dynamically render components on screen to improve user experience</p>
+            <p>• Implemented functions like Add note and Delete note to re-render and reflect changes while also updating array</p>
             <a class="button-link" href="https://secure-shelf-65021.herokuapp.com/">Visit!</a>
           </div>
+          
           <div class="card-body"></div>
         </div>
       </div>
 
       <div class="tier-column col-lg-6">
-          <img
-            src="images/Google-keep-clone.jpeg"
-            alt="PMV-logo"
-            style={{ width: "100%" }}
-          />
-        {/* <video width="600" contols>
-            <source src="images/Dashboard-demo.mov" type="video/mp4"/>
-          </video> */}
+      <video width="900" contols>
+              <source src="images/Google-keep-clone-demo.mov" type="video/mp4"/>
+            </video>
       </div>
     </div>
 
@@ -81,13 +46,12 @@ function Projects() {
               class="project-thumbnail"
               src="images/Task-list.jpeg"
               alt="PMV-logo"
-              style={{ width: "50%" }}
+              style={{ width: "65%" }}
             />
-            <h5>Nisi ullamco elit duis ipsum proident irure eu ad. Officia commodo qui reprehenderit amet cupidatat nisi sit do quis occaecat esse magna culpa. 
-            Proident excepteur cillum laboris laboris et fugiat incididunt deserunt veniam velit. Adipisicing dolore officia aliqua aliqua velit officia 
-            Lorem aute est aute elit id. Consequat in esse consectetur in adipisicing dolor aliqua non commodo cupidatat proident dolor ex. Nisi ullamco elit duis ipsum proident irure eu ad. Officia commodo qui reprehenderit amet cupidatat nisi sit do quis occaecat esse magna culpa. 
-            Proident excepteur cillum laboris laboris et fugiat incididunt deserunt veniam velit. Adipisicing dolore officia aliqua aliqua velit officia 
-            Lorem aute est aute elit id. Consequat in esse consectetur in adipisicing dolor aliqua non commodo cupidatat proident dolor ex.</h5>
+            <p>• Built a multi-page web app via technologies (JavaScript, HTML/CSS, Node.js)</p>
+            <p>• Implemented multi page templating using JavaScript EJS</p>
+            <p>• Used MongoDB Atlas and Mongoose database functionality to integrate savable states</p>
+            <p>• Implemented version control using git and deployed the web app using Heroku</p>
             <a class="button-link" href="https://serene-shelf-88879.herokuapp.com/">Visit!</a>
           </div>
           <div class="card-body"></div>
@@ -96,14 +60,10 @@ function Projects() {
 
 
       <div class="tier-column col-lg-6">
-          <img
-            src="images/Task-list.jpeg"
-            alt="PMV-logo"
-            style={{ width: "100%" }}
-          />
-        {/* <video width="600" contols>
-            <source src="images/Dashboard-demo.mov" type="video/mp4"/>
-          </video> */}
+
+        <video width="900" contols>
+            <source src="images/Task-list-demo.mov" type="video/mp4"/>
+          </video>
       </div>
     </div>
 
@@ -117,14 +77,13 @@ function Projects() {
               class="project-thumbnail"
               src="images/Dashcam.jpeg"
               alt="PMV-logo"
-              style={{ width: "50%" }}
+              style={{ width: "65%" }}
             />
-            <h5>Nisi ullamco elit duis ipsum proident irure eu ad. Officia commodo qui reprehenderit amet cupidatat nisi sit do quis occaecat esse magna culpa. 
-            Proident excepteur cillum laboris laboris et fugiat incididunt deserunt veniam velit. Adipisicing dolore officia aliqua aliqua velit officia 
-            Lorem aute est aute elit id. Consequat in esse consectetur in adipisicing dolor aliqua non commodo cupidatat proident dolor ex. Nisi ullamco elit duis ipsum proident irure eu ad. Officia commodo qui reprehenderit amet cupidatat nisi sit do quis occaecat esse magna culpa. 
-            Proident excepteur cillum laboris laboris et fugiat incididunt deserunt veniam velit. Adipisicing dolore officia aliqua aliqua velit officia 
-            Lorem aute est aute elit id. Consequat in esse consectetur in adipisicing dolor aliqua non commodo cupidatat proident dolor ex.
-            </h5>
+            <p>• Led a team of 4 computer engineer students to develop a dashcam intended for law enforcement to better identify vehicles on the rode during amber alerts</p>
+            <p>• Employed Computer Vision and Transfer-Learning methods to train the application to identify car make and model</p>
+            <p>• Trained and optimized machine learning model to accurately classify specific cars with over 92% algorithm confidence</p>
+            <p>• Developed the user interface, GPS/camera functionality, and frame design. (Python, Mobile-Net, YOLOnet, TKinter,SOLIDWORKS)</p>
+            <p>• Placed 2nd in Machine Learning category at University of Illinois 2021 Engineering Expo</p>
             <a class="button-link" href="https://github.com/Sean-Conrad/Smart-Dash-Cam">View on Github!</a>
           </div>
           <div class="card-body"></div>
