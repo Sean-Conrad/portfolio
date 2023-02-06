@@ -21,7 +21,7 @@ function Projects() {
             <p>• Built a web app using technologies (JavaScript, HTML/CSS, Bootstrap, Node.js, React.js)</p>
             <p>• Utilized techniques such as abstracting components, function decomposition, and component tree management</p>
             <p>• Used state hooks to dynamically render components on screen to improve user experience</p>
-            <p>• Implemented functions like Add note and Delete note to re-render and reflect changes while also updating array</p>
+            <p>• Implemented functions Add note and Delete note to re-render and reflect changes in real time</p>
             <a class="button-link" href="https://secure-shelf-65021.herokuapp.com/">Visit!</a>
           </div>
           
@@ -30,9 +30,9 @@ function Projects() {
       </div>
 
       <div class="tier-column col-lg-6">
-      <video width="900" contols>
-              <source src="images/Google-keep-clone-demo.mov" type="video/mp4"/>
-            </video>
+      <iframe width="900" height="600"
+          src="https://youtube.com/embed/dgEHLd3CbbY">
+        </iframe>
       </div>
     </div>
 
@@ -61,9 +61,9 @@ function Projects() {
 
       <div class="tier-column col-lg-6">
 
-        <video width="900" contols>
-            <source src="images/Task-list-demo.mov" type="video/mp4"/>
-          </video>
+      <iframe width="900" height="600"
+          src="https://youtube.com/embed/1dLpyvA5dg8">
+        </iframe>
       </div>
     </div>
 
@@ -81,7 +81,7 @@ function Projects() {
             />
             <p>• Led a team of 4 computer engineer students to develop a dashcam intended for law enforcement to better identify vehicles on the rode during amber alerts</p>
             <p>• Employed Computer Vision and Transfer-Learning methods to train the application to identify car make and model</p>
-            <p>• Trained and optimized machine learning model to accurately classify specific cars with over 92% algorithm confidence</p>
+            <p>• Trained and optimized machine learning model to accurately classify specific cars with over 92% average confidence</p>
             <p>• Developed the user interface, GPS/camera functionality, and frame design. (Python, Mobile-Net, YOLOnet, TKinter,SOLIDWORKS)</p>
             <p>• Placed 2nd in Machine Learning category at University of Illinois 2021 Engineering Expo</p>
             <a class="button-link" href="https://github.com/Sean-Conrad/Smart-Dash-Cam">View on Github!</a>
