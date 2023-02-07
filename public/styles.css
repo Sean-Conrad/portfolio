@@ -67,6 +67,11 @@ body {
   margin: 20px 20px;
 }
 
+/* videos */
+.project-video{
+  margin-top: 65px;
+}
+
 /* icons */
 
 .social-icon{
@@ -107,7 +112,7 @@ section {
 
 #bio-section .bio-img{
   text-align: center;
-  width: 60%;
+  width: 70%;
 }
 
 .exhibit-section {

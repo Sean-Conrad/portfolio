@@ -29,7 +29,7 @@ function Experience(){
 
 
         <div class="tier-column col-lg-6">
-        <iframe width="900" height="600"
+        <iframe width="675" height="450"
           src="https://youtube.com/embed/MMEj0msnogY">
         </iframe>
         </div>

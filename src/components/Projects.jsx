@@ -8,7 +8,7 @@ function Projects() {
 
 {/* Google Keep Clone */}
       <div class="row container-1">
-      <div class="tier-column col-lg-6">
+      <div class="tier-column col-lg-7">
         <div class="card" style={{ background: "#030017" }}>
           <div class="card-header">
             <h2>Google Keep Clone</h2>
@@ -29,8 +29,8 @@ function Projects() {
         </div>
       </div>
 
-      <div class="tier-column col-lg-6">
-      <iframe width="900" height="600"
+      <div class="tier-column col-lg-4">
+      <iframe class="project-video" width="675" height="450"
           src="https://youtube.com/embed/dgEHLd3CbbY">
         </iframe>
       </div>
@@ -38,7 +38,7 @@ function Projects() {
 
 {/* Task List */}
 <div class="row container-1">
-      <div class="tier-column col-lg-6">
+      <div class="tier-column col-lg-7">
         <div class="card" style={{ background: "#030017" }}>
           <div class="card-header">
             <h2>Task List</h2>
@@ -59,9 +59,9 @@ function Projects() {
       </div>
 
 
-      <div class="tier-column col-lg-6">
+      <div class="tier-column col-lg-4">
 
-      <iframe width="900" height="600"
+      <iframe class="project-video" width="675" height="450"
           src="https://youtube.com/embed/1dLpyvA5dg8">
         </iframe>
       </div>
@@ -69,7 +69,7 @@ function Projects() {
 
 {/* Dashcam */}
 <div class="row container-1">
-      <div class="tier-column col-lg-6">
+      <div class="tier-column col-lg-7">
         <div class="card" style={{ background: "#030017" }}>
           <div class="card-header">
             <h2>Dashcam</h2>
@@ -79,7 +79,7 @@ function Projects() {
               alt="PMV-logo"
               style={{ width: "65%" }}
             />
-            <p>• Led a team of 4 computer engineer students to develop a dashcam intended for law enforcement to better identify vehicles on the rode during amber alerts</p>
+            <p>• Led a team of 4 computer engineer students to develop a dashcam identify vehicles on the rode during amber alerts</p>
             <p>• Employed Computer Vision and Transfer-Learning methods to train the application to identify car make and model</p>
             <p>• Trained and optimized machine learning model to accurately classify specific cars with over 92% average confidence</p>
             <p>• Developed the user interface, GPS/camera functionality, and frame design. (Python, Mobile-Net, YOLOnet, TKinter,SOLIDWORKS)</p>
@@ -90,7 +90,7 @@ function Projects() {
         </div>
       </div>
 
-      <div class="tier-column col-lg-6">
+      <div class="tier-column col-lg-4">
           {/* <img
             src="images/Dashcam.jpeg"
             alt="PMV-logo"
@@ -99,9 +99,9 @@ function Projects() {
         {/* <video width="600" contols>
             <source src="images/Dashboard-demo.mov" type="video/mp4"/>
           </video> */}
-          <iframe title="FOX WIRE EXPO" 
+          <iframe class="project-video" title="FOX WIRE EXPO" 
             src="https://player.vimeo.com/video/532449896?h=eab9e45d7d&amp;dnt=1&amp;app_id=122963" 
-            width="900" height="480" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" 
+            width="675" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" 
             allowfullscreen="">
           </iframe>
       </div>
