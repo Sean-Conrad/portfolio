@@ -8,7 +8,7 @@ function Bio() {
           <h2>Sean Conrad Murphy Atangan</h2>
             <img
               class="bio-img"
-              src="images/sean-headshot.jpeg"
+              src="images/sean-headshot.jpg"
               alt="Sean"
             />
           </div>

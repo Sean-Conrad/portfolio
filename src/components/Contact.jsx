@@ -5,7 +5,7 @@ function Contact(){
     <section class="container-2" id="contact-section">
     <main class="form-signin2">
     <form div class="" action="https://formsubmit.co/6ed5438828438ae11b4981e59c54d865" method="POST">
-      <img class="bio-img" src="images/sean-headshot.jpeg" alt="sean-headshot" />
+      <img class="bio-img" src="images/sean-headshot.jpg" alt="sean-headshot" />
       <h1>Let's Get In Touch!</h1>
       <div class="row">
         <div class="form-floating col-lg-6">

@@ -30,7 +30,7 @@ function Projects() {
       </div>
 
       <div class="tier-column col-lg-4">
-      <iframe class="project-video" width="675" height="450"
+      <iframe class="project-video" width="506" height="337"
           src="https://youtube.com/embed/dgEHLd3CbbY">
         </iframe>
       </div>
@@ -61,7 +61,7 @@ function Projects() {
 
       <div class="tier-column col-lg-4">
 
-      <iframe class="project-video" width="675" height="450"
+      <iframe class="project-video" width="506" height="337"
           src="https://youtube.com/embed/1dLpyvA5dg8">
         </iframe>
       </div>
@@ -101,7 +101,7 @@ function Projects() {
           </video> */}
           <iframe class="project-video" title="FOX WIRE EXPO" 
             src="https://player.vimeo.com/video/532449896?h=eab9e45d7d&amp;dnt=1&amp;app_id=122963" 
-            width="675" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" 
+            width="506" height="270" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" 
             allowfullscreen="">
           </iframe>
       </div>
